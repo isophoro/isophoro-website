@@ -169,18 +169,21 @@
 
 .main {
     background: #161619;
-    height: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .main__container {
 
     display: flex;
+    flex-direction: column;
+    /* Align content vertically */
     align-items: center;
-    justify-self: center;
-    margin: 0 auto;
-    height: 93vh;
-    background-color: 141414;
-    z-index: 1;
+    /* Horizontally center items */
+    justify-content: center;
+    /* Vertically center items */
     width: 100%;
     max-width: 1300px;
     padding: 0 50px;
@@ -222,7 +225,7 @@
         justify-self: center;
         width: 100%;
         margin: 0 0rem;
-        height: 93vh;
+        height: 90vh;
     }
 
     .main__content {
@@ -243,4 +246,10 @@
     .main__content iframe {
         height: 40px;
     }
+}
+
+body {
+    background: #161619;
+    margin: 0;
+    padding: 0;
 }
