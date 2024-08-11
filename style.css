@@ -176,14 +176,10 @@
 }
 
 .main__container {
-
     display: flex;
     flex-direction: column;
-    /* Align content vertically */
     align-items: center;
-    /* Horizontally center items */
     justify-content: center;
-    /* Vertically center items */
     width: 100%;
     max-width: 1300px;
     padding: 0 50px;
