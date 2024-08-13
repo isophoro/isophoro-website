@@ -226,6 +226,14 @@
 
 }
 
+.aboutsection {
+    margin: -150px 0;
+}
+
+.why h1 {
+    margin: -125px 0;
+}
+
 .aboutsection h2 {
     align-items: center;
     justify-content: center;
