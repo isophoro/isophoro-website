@@ -230,6 +230,12 @@
     margin: -50px 0;
 }
 
+.gf {
+    align-items: center;
+    justify-content: center;
+    color: #918989;
+}
+
 .why h1 {
     margin: -125px 0;
 }
